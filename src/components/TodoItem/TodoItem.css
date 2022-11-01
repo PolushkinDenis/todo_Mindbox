@@ -1,0 +1,12 @@
+.todo-item {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    min-height: 80px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(103, 103, 103);
+}
